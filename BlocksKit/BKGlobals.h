@@ -6,9 +6,6 @@
 #import <dispatch/dispatch.h>
 #import <Foundation/Foundation.h>
 
-#import "A2BlockDelegate.h"
-#import "NSObject+A2DynamicDelegate.h"
-
 #if (TARGET_OS_MAC && !(TARGET_OS_EMBEDDED || TARGET_OS_IPHONE))
 #define BK_HAS_UIKIT 0
 #define BK_HAS_APPKIT 1
